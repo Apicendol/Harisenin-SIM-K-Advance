@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;800&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/3cd9847a56.js" crossorigin="anonymous"></script>
+  <title>Median - Advance SIM K</title>
+</head>
+
+<body class="font-inter flex flex-col items-center md:w-full bg-[#F1F3F9] md:bg-white">
+  <div class="md:w-full flex flex-row-reverse md:py-auto md:h-screen">
+    <div class="md:w-1/2 md:flex justify-center flex-col items-center">
+      <div class="flex items-center justify-center px-6">
+        <div class="py-8 text-3xl text-[#005555] font-bold flex flex-row gap-1 md:hidden">
+          <span>Median</span>
+        </div>
+      </div>
+
+      <!-- Login Form -->
+      <div class="flex flex-col item w-[320px] min-h-[426px] bg-white rounded-3xl shadow-lg drop-shadow-lg md:drop-shadow-xl p-6">
+        <div class="flex flex-col justify-center items-center text-[24px] font-bold gap-1">
+          Login
+          <span class="text-[14px] font-normal">Selamat Datang Kembali!</span>
+        </div>
+
+        <form class="">
+          <div class="text-[12px] flex flex-col">
+            <label class="font-bold py-1 pt-5">Email</label>
+            <input required type="email" placeholder="Masukkan Email"
+              class="h-[40px] w-[272px] rounded-[6px] px-[12px] border-[1px] border-[#E1E6EF] disabled:border-[#9D9EA1]" />
+
+          </div>
+          <div class="text-[12px] relative flex flex-col">
+            <label class="font-bold py-1 pt-5">Kata Sandi</label>
+            <div class="flex items-center justify-center relative">
+              <input required type="password" placeholder="Masukkan Kata Sandi"
+                class="h-[40px] w-[272px] rounded-[6px] px-[12px] border-[1px] border-[#E1E6EF] flex-2 pr-[30px] disabled:border-[#9D9EA1]" />
+                <div class="absolute justify-center items-center right-3 cursor-pointer">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+            </div>
+          </div>
+        </form>
+
+        <div class="text-[#005555] text-[10px] py-6 flex justify-between">
+          <div class="font-medium">
+            Belum Punya Akun?
+            <span class="font-bold"><a href="register.html">Register</a></span>
+          </div>
+          <div class="font-bold"><a href="#">Lupa Password?</a></div>
+        </div>
+
+        <a href="news-page.html">
+          <div
+            class="bg-[#005555] text-center text-white py-[7px] px-[22px] rounded-[4px] text-[11px] font-medium hover:text-[#005555] hover:bg-[#F1F3F9] cursor-pointer">
+            <button>Login</button>
+          </div>
+        </a>
+
+        <span class="text-center text-[11px] font-normal py-4 text-[#4A505C]">atau</span>
+
+        <div class="text-center border-[1px] border-[#E1E6EF] py-[6px] rounded-[4px] text-[11px] font-medium">
+          <button class="flex justify-center items-center gap-2 mx-auto font-medium">
+            <img src="./assets/images/icon/google.png" class="w-[16px] h-[16px]" />Login dengan
+            Google
+          </button>
+        </div>
+      </div>
+      <div class="flex items-center justify-center">
+        <div
+          class="text-center text-[#6C717A] text-[10px] border-t-[1px] border-[#E1E6EF] max-w-screen fixed bottom-0 py-[8px] font-medium md:w-1/2">
+          © 2023 PT. Median. All Rights Reserved
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden md:block w-1/2 flex-col bg-[#005555] max-h-screen md:justify-center items-center">
+      <div class="md:flex flex-col justify-center items-center h-full">
+        <img src="assets/images/Illustration.png" alt="" class="flex justify-center w-[500px]">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
